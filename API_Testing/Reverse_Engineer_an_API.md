@@ -17,3 +17,6 @@ afterwards you can download the captures as a flow file in mitmweb by clicking o
 `sudo mitmproxy2swagger -i flows -o spec.yml -p <website api> -f flow --examples`, --examples is added to enhance the documentation of the api endpoints.
 5. **https://editor.swagger.io/:** Now you can import the clean spec.yml file and visualize the different endpoints.
 6. **Postman:** You can also import the spec.yml in postman which will produce a well organized collection.
+
+## Contributor:
+- [Offensive Droid](https://twitter.com/fonderelite)
