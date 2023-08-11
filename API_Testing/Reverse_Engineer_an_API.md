@@ -13,7 +13,7 @@
 2. **mitmweb:** Run `sudo mitmweb` and then go to mitm.it and install & import the certificate.
 3. **Explore Website w/ API's functionalities:** Go to the website w/ api that you want to gather the API endpoints from and explore it's functionalities. The mitmweb tool will capture it,
 afterwards you can download the captures as a flow file in mitmweb by clicking on file -> save all.
-4. **mitmproxy2swagger:** Here we run `sudo mitmproxy2swagger -i flows -o spec.yml -p <website api> -f flow`. This will turn flows file to a yml file. Afterwards you need to remove the ignore: in the spec.yml and run
+4. **mitmproxy2swagger:** Here we run `sudo mitmproxy2swagger -i flows -o spec.yml -p <website api> -f flow`. This will turn flow file to a yml file. Afterwards you need to remove the ignore: in the spec.yml and run
 `sudo mitmproxy2swagger -i flows -o spec.yml -p <website api> -f flow --examples`, --examples is added to enhance the documentation of the api endpoints.
 5. **https://editor.swagger.io/:** Now you can import the clean spec.yml file and visualize the different endpoints.
 6. **Postman:** You can also import the spec.yml in postman which will produce a well organized collection.
