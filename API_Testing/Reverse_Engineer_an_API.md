@@ -19,4 +19,4 @@ afterwards you can download the captures as a flow file in mitmweb by clicking o
 6. **Postman:** You can also import the spec.yml in postman which will produce a well organized collection.
 
 ## Contributor:
-- [Offensive Droid](https://twitter.com/fonderelite)
+- [Offensive-Droid](https://twitter.com/fonderelite)
